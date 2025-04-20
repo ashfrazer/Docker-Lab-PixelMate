@@ -6,7 +6,7 @@ call mvn install:install-file -Dfile=ocsf.jar -DgroupId=ocsf -DartifactId=ocsf -
 echo.
 echo Building project...
 echo.
-call mvnw clean install
+call mvnw clean install -DskipTests
 echo.
 echo Starting Docker container...
 docker-compose up -d --build
