@@ -60,9 +60,5 @@
   2) Run the following command: `docker-compose down`. This will stop any running containers.
   3) Run the following command: `docker ps`. This will display any running containers. Assuming you do not have any containers unrelated to PixelMate, this should return an empty list. If not, then open Docker Desktop and manually stop and delete the container.
   4) Run the following command: `docker-compose up -d --build`. This will re-build the container and restart the database.
-
-- Q: How can I run the unit and integration tests?
-- A: When executing *server.bat*, these tests are automatically run, and their outputs are printed to the terminal. However, if you would like to run the tests individually,
-	  open a terminal, navigate to the project folder, and run the following commands:
-		* `mvnw test -Dtest=DatabaseIT`
-		* `mvnw test -Dtest=KnightTest`
+ 
+As always, feel free to reach out to me via Discord @ashxfraz.
