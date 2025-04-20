@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY target/PixelMate.jar /app/PixelMate.jar
 
-EXPOSE 8080
+EXPOSE 5555:5555
 
 CMD ["java", "-jar", "/app/PixelMate.jar"]
